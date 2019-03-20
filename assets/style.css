@@ -1,0 +1,21 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+h2{
+    color: green;
+    font-size: 15px;
+    text-align: center;
+}
+
+#add-button{
+    margin-top: 20px;
+    
+
+}
+
+#theBody{
+    font-family: 'Margarine';
+    background-color: rgb(62, 58, 58);
+    color: brown;
+}
