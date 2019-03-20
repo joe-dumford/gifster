@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("#add-button").submit(function (event) {
         event.preventDefault();
 
-        //TRaking users inout text
+        //Taking users input text
         var textBox = $("#input").val().trim();
         movies.push(textBox);
         renderButtons();
@@ -38,7 +38,7 @@ $(document).ready(function () {
         var searchTerm = $(this).data("search");
 
         //Attaching Giphy API and making Ajax call below
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=Ss5Rzu650RylCyJaAf11Sh4F9os831v1&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=Ss5Rzu650RylCyJaAf11Sh4F9os831v1&limit=10";
         console.log(queryURL);
 
         $.ajax({
